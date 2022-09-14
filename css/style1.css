@@ -1,0 +1,103 @@
+/* Declaracion fuente */
+@font-face {
+    font-family: Oswald;
+    src: url("../assets/fonts/Oswald.ttf");
+}
+/* Estilo body común */
+body{
+    background-color: rgb(24, 24, 24);
+    margin: 0;
+    color: white;
+    font-family: Oswald;
+    overflow-x: hidden;
+    background-image: url("../assets/images/background.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/* Estilo menu */
+.menu{
+    background-color: rgb(120, 165, 120);
+    text-align: center;
+}
+/* Estilo de los elementos del menu */
+.elementomenu{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 8%;
+    height: 100%;
+    padding: 1.25rem;
+    text-shadow:2px 2px 0 rgb(126, 126, 126);
+}
+/* Estilo del elemento del menu con el raton encima */
+.elementomenu:hover{
+    background-color: rgb(135, 185, 135);
+}
+/* Estilo de los enlaces */
+a{
+    text-decoration: inherit;
+    color: rgb(255, 255, 255);
+}
+/* Estilo del pie */
+.pie{
+    background-color: rgb(120, 165, 120);
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 1.25rem;
+    text-align: center;
+    font-size: 0.7;
+}
+/* Estilo de la columna del medio del pie */
+.columnapiemedio{
+    width: 17%;
+    border-right: 1px whitesmoke solid;
+    border-left: 1px whitesmoke solid;
+    display: inline-block;
+    vertical-align: top;
+}
+/* Estilo de la columna del pie */
+.columnapie{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+/* Estilo del texto del pie */
+.textopie{
+    text-align: justify;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+/* Estilo del texto del pie centrado */
+.textopiecent{
+    text-align: center;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+/* Estilo de iconos del pie */
+.kom{
+    width: 23%;
+}
+/* Estilo de la columna del index */
+.columnaindex{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+/* Estilo de la columna 2 del index */
+.columnaindex2{
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3rem;
+}
+/* Estilo de la imagen del index y imagen en general*/ 
+.imagenindex{
+    width: 100%;
+}
+/* Estilo del contenedor principal */
+.contenedorprincipal{
+    width: 90%;
+    margin: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}

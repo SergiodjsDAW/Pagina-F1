@@ -1,0 +1,131 @@
+/* Estilo del contenedor de la pagina*/
+.solocontenedor{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    margin-top: 0%;
+    padding-bottom: 0.8rem;
+}
+/* Estilo del contenedor de la pagina resultados*/
+.solocontenedorre{
+    width: 100%;
+    background-color: rgba(4, 14, 26, 0.95);
+    text-align: center;
+    margin-top: 0%;
+    padding-bottom: 0rem;
+}
+/* Estilo del texto */
+.texto{
+    text-align: justify;
+}
+/* Estilo del contenedor de la imagen */
+.contenedorimagen{
+    width: 90%;
+    margin: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.7rem;
+    border-radius: 1.3rem;
+}
+/* Estilo columna1 */
+.columna1{
+    margin: auto;
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 1.2rem;
+}
+/* Estilo columnacampeon */
+.columnacampeon{
+    width: 30%;
+    padding: 1.5rem;
+    background-color: rgba(0, 16, 68, 0.8);
+}
+/* Estilo columna adaptable */
+.columnaadapta{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: auto;
+    margin: 1.2rem;
+}
+/* Estilo columna 2 */
+.columna2{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3rem;
+    font-size: 1.25rem;
+}
+/* Estilo de los subtitulos */
+.subtitulo{
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* Estilo de la tabla */
+table{
+    width: 100%;
+    text-align: center;
+    border:1px solid white;
+    margin: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+/* Estilo de las celdas */
+table td{
+    border:1px solid white;
+}
+/* Estilo de imagen de equipo */
+.imagenequipo{
+    width: 60%;
+}
+/* Estilo de container equipo */
+.containerequipo{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    background-color: rgb(26, 30, 43);
+    padding:1.2rem;
+}
+/* Estilo tarjetas */
+.tarjeta{
+    width: 40%;
+    background-color: rgb(120, 165, 120);
+    margin: 1.2rem;
+    display: inline-block;
+}
+/* Estilo dentro tarjeta */
+.tarjeta1{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1.2rem;
+}
+/* Estilo sorteo 1 */
+.sorteo{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+/* Estilo sorteo 2 */
+.sorteo2{
+    display: inline-block;
+    text-align: center;
+}
+/* Estilo fieldset */
+fieldset{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 2rem;
+}
+/* Estilo del formulario para el espaciado */
+.formulario{
+    margin: 1rem;
+}
